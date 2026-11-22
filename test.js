@@ -1,1 +1,7 @@
-import test from 'node:test';\nimport assert from 'node:assert';\n\ntest('repository evaluation test suite', () => {\n  assert.strictEqual(true, true);\n  assert.strictEqual(typeof 'ex-001', 'string');\n});\n
+import test from 'node:test';
+import assert from 'node:assert';
+
+test('repository evaluation test suite', () => {
+  assert.strictEqual(true, true);
+  assert.strictEqual(typeof 'ex-001', 'string');
+});
