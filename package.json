@@ -1,0 +1,14 @@
+{
+  "name": "ex-001",
+  "version": "1.0.0",
+  "description": "Slugify utility function with TypeScript and Node.js 22 native test runner",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
