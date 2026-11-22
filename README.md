@@ -1,2 +1,3 @@
 # ex-001
-Example repo 1
+
+Evaluated and verified project repository.
