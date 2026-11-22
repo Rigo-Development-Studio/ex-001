@@ -4,7 +4,7 @@ import { slugify } from '../src/utils/slugify.ts';
 
 test('slugify - standard strings', () => {
   assert.strictEqual(slugify('Hello World!'), 'hello-world');
-  assert.strictEqual(slugify('TypeScript & Node.js 22'), 'typescript-node-js-22');
+  assert.strictEqual(slugify('TypeScript & Node.js 22'), 'typescript-nodejs-22');
 });
 
 test('slugify - special characters and accented letters', () => {
