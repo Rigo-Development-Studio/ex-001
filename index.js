@@ -1,7 +1,7 @@
 /**
  * Main application entrypoint or core module for ex-001.
  */
-export function getProjectStatus(): { status: string; repository: string } {
+export function getProjectStatus() {
   return {
     status: 'healthy',
     repository: 'ex-001'

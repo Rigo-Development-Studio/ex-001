@@ -2,10 +2,11 @@
   "name": "ex-001",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "description": "Evaluated and enhanced project structure for ex-001",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test index.test.js"
   },
   "dependencies": {},
   "devDependencies": {}
