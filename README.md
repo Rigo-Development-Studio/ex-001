@@ -1,32 +1,15 @@
-# ex-001
+# ex-001: Slugify Utility Function
 
-Minimal TypeScript + Node.js 22 project configured with `package.json` and `tsconfig.json`.
-
-## Features
-- **`slugify` Utility Function**: Converts input strings into clean, URL-friendly slugs in `src/utils/slugify.ts`.
-- **Node.js 22 Native Test Runner**: Runs tests in `test/slugify.test.ts` using Node.js native test runner (`node:test` and `node:assert`) with `--experimental-strip-types`.
+Minimal TypeScript + Node.js 22 project configured with package.json and tsconfig.json, featuring a robust `slugify` utility function and Node.js native unit tests.
 
 ## Getting Started
 
-### Installation
+### Prerequisites
+- Node.js v22+
+
+### Running Tests & Type-Checking
 ```bash
 npm install
-```
-
-### Running Tests
-Execute unit tests using Node.js 22 native type stripping:
-```bash
-npm test
-```
-
-### Type Checking
-Run TypeScript type checking:
-```bash
 npm run typecheck
-```
-
-### Build
-Run build / typecheck:
-```bash
-npm run build
+npm test
 ```
