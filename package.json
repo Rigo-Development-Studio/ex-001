@@ -1,0 +1,15 @@
+{
+  "name": "ex-001",
+  "version": "1.0.0",
+  "description": "Minimal TypeScript + Node.js 22 project with slugify utility function",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test test/slugify.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
