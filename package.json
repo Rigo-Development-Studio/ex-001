@@ -1,0 +1,12 @@
+{
+  "name": "ex-001",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Evaluated and enhanced project repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {}
+}
